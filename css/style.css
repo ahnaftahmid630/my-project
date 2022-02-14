@@ -1,0 +1,55 @@
+*{padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/* mian css start */
+.sliders{
+    position: relative;
+}
+
+.slider{
+    padding: 100px 0;
+    background:url(../b/1.jpg);
+}
+
+
+.one{
+    background: tomato;
+    background:url(../b/2.jpg);
+}
+
+.two{
+    background: #000;
+    background:url(../b/3.jpg);
+}
+
+.three{
+    background: yellow;
+    background:url(../b/4.jpg);
+}
+
+.prev{
+    width: 50px;
+    height: 50px;
+    border: solid 1px red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 555;
+
+}
+
+.next{
+    width: 50px;
+    height: 50px;
+    border: solid 1px red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right:10px;
+    transform: translateY(-50%);
+}
